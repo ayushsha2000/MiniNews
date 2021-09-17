@@ -1,4 +1,4 @@
-# gesture_detector
+# mini_news
 
 A new Flutter application.
 

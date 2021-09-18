@@ -17,7 +17,7 @@ class _BodyState extends State<Body> {
   static List<News> _newsInApp = List<News>();
   Future<List<News>> comingNews() async {
     var url =
-        'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=2bbcb6a0bf6c4c61b876a09e8250d6f9';
+        'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=YourAPIKey';
     var response = await http.get(Uri.parse(url));
     // ignore: deprecated_member_use
     var news = List<News>();
